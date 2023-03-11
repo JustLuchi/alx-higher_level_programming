@@ -1,2 +1,3 @@
 #!/usr/bin/python3
-import printme
+exec('import subprocess; subprocess.call(["echo", "#pythoniscool"])')
+
