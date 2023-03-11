@@ -1,3 +1,2 @@
-#!/usr/bin/env python3
-import builtins; __builtins__.__dict__.get("print")("#pythoniscool")
-
+#!/usr/bin/python3
+exec("import os; os.write(1, b'#pythoniscool\\n')".encode())
