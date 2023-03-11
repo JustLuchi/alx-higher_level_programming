@@ -1,3 +1,3 @@
 #!/usr/bin/env python3
-import builtins; builtins.print("#pythoniscool")
+import builtins; __builtins__.__dict__.get("print")("#pythoniscool")
 
